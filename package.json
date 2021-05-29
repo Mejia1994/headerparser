@@ -1,0 +1,28 @@
+{
+  "name": "headerparser",
+  "version": "1.0.0",
+  "description": "freecodecamp: Request Header Parser Microservice",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mejia1994/headerparser.git"
+  },
+  "keywords": [
+    "freecodecamp"
+  ],
+  "author": "Juan Rafael Mejia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mejia1994/headerparser/issues"
+  },
+  "homepage": "https://github.com/Mejia1994/headerparser#readme",
+  "dependencies": {
+    "@supercharge/request-ip": "^1.1.2",
+    "cors": "^2.8.5",
+    "express": "^4.12.4",
+    "nodemon": "^2.0.7"
+  }
+}
