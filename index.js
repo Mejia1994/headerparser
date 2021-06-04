@@ -31,6 +31,6 @@ app.get('/api/whoami', function (req, res) {
     });
 });
 
-const listener = app.listen(process.env.port || 3000, function () {
+const listener = app.listen(process.env.PORT || 3000, function () {
     console.log("server started on port " + listener.address().port);
 });
